@@ -34,5 +34,5 @@ console.log(i)
 
 const id=123;
 console.log(id)
-id=234;
+// id=234;
 // console.log(id) It will give type error as we can't reassign value of const variable

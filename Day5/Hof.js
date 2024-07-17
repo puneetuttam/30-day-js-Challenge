@@ -16,8 +16,12 @@ function main(fu1, fu2, value) {
     return ans;
 }
 
-const add = (a) => a + 10;
+const add = (a) => {
+    return a + 10;
+};
 
-const mul = (b) => b * 10;
+const mul = (b) => {
+    return b * 10;
+};
 
 console.log(main(add, mul, 2));

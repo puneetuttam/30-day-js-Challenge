@@ -48,3 +48,5 @@ console.log("Object Iteration")
 for(k in books){
     console.log(`${k} : ${books[k]}`)
 }
+console.log(Object.keys(books))
+console.log(Object.values(books))
